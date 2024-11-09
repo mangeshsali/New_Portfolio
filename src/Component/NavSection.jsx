@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaMoon, FaTimes } from "react-icons/fa";
-import LOGO from "/src/assets/logo.png";
+import LOGO from "/assets/logo.png";
 
 const NavSection = () => {
   const [isOpen, setIsOpen] = useState(false);

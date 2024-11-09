@@ -1,8 +1,8 @@
 import React from "react";
-import ProfileIMG from "/src/assets/Propic1652556568004.png";
-import PatternIMG from "/src/assets/dotted-pattern.svg";
-import BGIMG from "/src/assets/herobgc1.jpg";
-import WavingGIF from "/src/assets/waving-hand.1da6fc7a.gif";
+import ProfileIMG from "/assets/Propic1652556568004.png";
+import PatternIMG from "/assets/dotted-pattern.svg";
+import BGIMG from "/assets/herobgc1.jpg";
+import WavingGIF from "/assets/waving-hand.1da6fc7a.gif";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
 import MyComponent from "./MyComponent";

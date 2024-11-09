@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "/src/assets/img.png"; // Adjust the path as needed
+import AboutImage from "/assets/img.png"; // Adjust the path as needed
 
 const AboutSection = () => {
   return (

@@ -20,7 +20,7 @@ const ContactSection = () => {
 
       <div className="flex flex-col items-center lg:flex-row lg:justify-center">
         <div className="lg:w-[50%] hidden lg:block">
-          <img src="src/assets/contact.png" alt="Contact" />
+          <img src="/assets/contact.png" alt="Contact" />
         </div>
 
         <div className="flex flex-col lg:w-[50%]">
