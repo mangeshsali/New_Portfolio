@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaMoon, FaTimes } from "react-icons/fa";
+import LOGO from "/src/assets/logo.png";
 
 const NavSection = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,11 +12,7 @@ const NavSection = () => {
   return (
     <nav className="bg-white h-16 w-full fixed top-0 my-0 flex items-center z-10">
       <div className="flex w-[1100px] lg:mx-auto bg-white items-center text-black font-poppins text-[22px] justify-between mx-5">
-        <img
-          src="/src/assets/logo.png"
-          alt="logo"
-          className="w-8 cursor-pointer"
-        />
+        <img src={LOGO} alt="logo" className="w-8 cursor-pointer" />
         <div className="links">
           <ul className="justify-between hidden md:flex">
             <li className="mx-5">
