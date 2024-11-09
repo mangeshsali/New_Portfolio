@@ -1,0 +1,23 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"
+  ],
+  theme: {
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+    },
+
+    extend: {
+      colors: {
+        "regal-blue": "#7c3aed",
+        "black-grey": "#4b5563",
+        "white-shade": "#f5f3ff",
+      },
+      screens: {
+        sm: "480px",
+      },
+    },
+
+    plugins: [],
+  },
+}
