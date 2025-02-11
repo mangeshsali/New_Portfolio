@@ -4,11 +4,23 @@ import ProjectCard from "./ProjectCard"; // Adjust the import path as necessary
 
 const ProjectSection = () => {
   const projects = [
+    // {
+    //   image: "/assets/sorting.png",
+    //   altText: "Sorting Visualizer",
+    //   liveLink: "https://sorting-visualiz.netlify.app/",
+    //   githubLink: "https://github.com/mangeshsali/Sorting_visualizer",
+    // },
+        {
+      image: "/assets/cinema.png",
+      altText: "Cinema GPT",
+      liveLink: "https://cinemaa-gpt.vercel.app/",
+      githubLink: "https://github.com/mangeshsali/CinemaGPT",
+    },
     {
-      image: "/assets/sorting.png",
-      altText: "Sorting Visualizer",
-      liveLink: "https://sorting-visualiz.netlify.app/",
-      githubLink: "https://github.com/mangeshsali/Sorting_visualizer",
+      image: "/assets/streamer.png",
+      altText: "Streamer App",
+      liveLink: "https://streamer-eosin.vercel.app/",
+      githubLink: "https://github.com/mangeshsali/Strammer",
     },
     {
       image: "/assets/Screenshot_20240202_122353.png",
@@ -17,20 +29,20 @@ const ProjectSection = () => {
       githubLink: "https://github.com/mangeshsali/python-doc",
     },
 
-    {
-      image: "/assets/news.jpg",
-      altText: "News App",
-      liveLink: "https://newswavee.netlify.app/",
-      githubLink: "https://github.com/mangeshsali/News_App",
-    },
+    // {
+    //   image: "/assets/news.jpg",
+    //   altText: "News App",
+    //   liveLink: "https://newswavee.netlify.app/",
+    //   githubLink: "https://github.com/mangeshsali/News_App",
+    // },
 
-    {
-      image: "/assets/changecolor.png",
-      altText: "Color Flipper",
-      liveLink: "https://flipercolor.netlify.app/",
-      githubLink:
-        "https://github.com/mangeshsali/OIBSIP/tree/main/Color%20Fliper",
-    },
+    // {
+    //   image: "/assets/changecolor.png",
+    //   altText: "Color Flipper",
+    //   liveLink: "https://flipercolor.netlify.app/",
+    //   githubLink:
+    //     "https://github.com/mangeshsali/OIBSIP/tree/main/Color%20Fliper",
+    // },
     {
       image: "/assets/bubblegame.jpg",
       altText: "Bubble Game",
@@ -43,18 +55,7 @@ const ProjectSection = () => {
       liveLink: "https://foodiess.vercel.app/",
       githubLink: "https://github.com/mangeshsali/foodies",
     },
-    {
-      image: "/assets/cinema.png",
-      altText: "Cinema GPT",
-      liveLink: "https://cinemaa-gpt.vercel.app/",
-      githubLink: "https://github.com/mangeshsali/CinemaGPT",
-    },
-    {
-      image: "/assets/streamer.png",
-      altText: "Streamer App",
-      liveLink: "https://streamer-eosin.vercel.app/",
-      githubLink: "https://github.com/mangeshsali/Strammer",
-    },
+
   ];
 
   return (
