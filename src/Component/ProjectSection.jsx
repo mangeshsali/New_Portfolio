@@ -10,18 +10,19 @@ const ProjectSection = () => {
     //   liveLink: "https://sorting-visualiz.netlify.app/",
     //   githubLink: "https://github.com/mangeshsali/Sorting_visualizer",
     // },
+      {
+      image: "/assets/streamer.png",
+      altText: "Streamer App",
+      liveLink: "https://streamer-eosin.vercel.app/",
+      githubLink: "https://github.com/mangeshsali/Strammer",
+    },
         {
       image: "/assets/cinema.png",
       altText: "Cinema GPT",
       liveLink: "https://cinemaa-gpt.vercel.app/",
       githubLink: "https://github.com/mangeshsali/CinemaGPT",
     },
-    {
-      image: "/assets/streamer.png",
-      altText: "Streamer App",
-      liveLink: "https://streamer-eosin.vercel.app/",
-      githubLink: "https://github.com/mangeshsali/Strammer",
-    },
+  
     {
       image: "/assets/Screenshot_20240202_122353.png",
       altText: "Python Documentation",
